@@ -1,6 +1,8 @@
-const minimist = require("minimist");
+#!/usr/bin/env node
 
-const { measure } = require("../main");
+const minimist = require('minimist');
+
+const { measure } = require('../main');
 
 const description = `
 check-bundle-size [options]
