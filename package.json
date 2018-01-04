@@ -1,0 +1,24 @@
+{
+  "name": "check-bundle-size",
+  "version": "0.1.0",
+  "description": "Measure and compare bundle sizes between consecutive builds",
+  "main": "src/main.js",
+  "bin": {
+    "check-bundle-size": "src/bin/check-bundle-size.js"
+  },
+  "files": ["src"],
+  "repository": "https://github.com/straku/check-bundle-size",
+  "author": "Łukasz Strączyński <l.straczynski@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write --trailing-comma=es5 'src/**/*.js'"
+  },
+  "dependencies": {
+    "glob": "^7.1.2",
+    "gzip-size": "^4.1.0",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.9.2"
+  }
+}
