@@ -1,12 +1,14 @@
 {
   "name": "check-bundle-size",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Measure and compare bundle sizes between consecutive builds",
   "main": "src/main.js",
   "bin": {
     "check-bundle-size": "src/bin/check-bundle-size.js"
   },
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "repository": "https://github.com/straku/check-bundle-size",
   "author": "Łukasz Strączyński <l.straczynski@hotmail.com>",
   "license": "MIT",
